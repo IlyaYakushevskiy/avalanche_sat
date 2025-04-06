@@ -1,6 +1,7 @@
 TODO
 6.04. Yas & Anna: EDA
-      Ilya: Exctract LWC from Sentinel  
+      Ilya: Exctract LWC from Sentinel 
+            (use search API for dates closest to our data (think how to align D-t best); look into prepocessed DS )
 
 plan LINK https://docs.google.com/document/d/17DNvJMGNCAq-NKItQqlB5u7wUGGjeH9yCoCsy1Fet0E/edit?usp=sharing
 
