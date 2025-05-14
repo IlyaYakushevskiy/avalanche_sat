@@ -1,6 +1,3 @@
-WSL Institute for Snow and Avalanche Research SLF
-Avalanches between 2023-04-01 and 2023-07-01
-Create at: 2025-05-09
 "avalanche_id","location","trigger_date_time","trigger_date_time_accuracy_code","trigger_type","avalanche_type","avalanche_size","avalanche_moisture","start_zone_aspect"
 f9d63b0f-4a9d-443d-9df5-30e8ba818ef2,POINT(9.80967 46.832453),2023-04-01 10:44:00.000 +0200,1,PERSON,SLAB,2,DRY,NE
 "216c2530-d139-11ed-80fa-f54d650c1715",POINT(7.74259 46.055277),2023-04-02 10:05:00.000 +0200,0,EXPLOSIVE,SLAB,4,DRY,S
