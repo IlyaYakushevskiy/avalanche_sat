@@ -17,11 +17,16 @@ This project uses meteorological and snowpack data to predict wet-snow avalanche
 6. `6_Neural_Network.ipynb`: PyTorch-based AvalancheNet
 7. `7_Model_Stacking.ipynb`: Manual stacking with NN + RFs
 8. `8_TemporalSplit_Model_Stacking.ipynb`: Time-aware stacking to avoid data leakage
+9. `9_Prepare_sat_ds.ipynb`: Getting data from all sources and processing into one dataset
+10. `10_Predict_avalanche_sat.ipynb`: Training RF and generating "Prediction Map" with it 
 
 ## Data 
 - `dataset1.csv`, `dataset2.csv`, `dataset3_nowcast.csv`, `dataset3_forecast.csv`: Original datasets (https://www.envidat.ch/dataset/data_wet_aval_model)
 
 - `full_dataset.csv`: Merged, cleaned dataset used for training and evaluation
+- '/Data/Satelite-Data/data_clip_exolabs': Everyday snapshots of certain alpine region with snow-depth estiamtions over 3 month
+- '/Data/Satelite-Data/meteoswiss_data' : data exported from 12 meteo-stations located within the bounds of before-mentioned 
+- '/Data/Satelite-Data/dem.tif' : digital elevation map
 
 ## Models
 - KNN, Logistic regression with PCA/without
