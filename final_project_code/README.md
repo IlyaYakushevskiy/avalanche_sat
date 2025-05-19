@@ -1,5 +1,4 @@
 # Avalanche Prediction Project
-
 ______________________________________________________________________________________________
 
 ### Using Data provided by weather forecasting/nowcasting and SNOWPACK ###
@@ -11,11 +10,13 @@ This project uses meteorological and snowpack data to predict wet-snow avalanche
 
 ## Contents
 1. `1_Plot_AvalangeOccurrence.ipynb`: Visualize avalanche days per dataset and month
-2. `2_Analysis_yas.ipynb`: Exploratory data analysis (EDA) and preprocessing
-3. `3_RandomForests_DecisionTree.ipynb`: Decision trees, Random Forests (F1- and recall-optimized)
-4. `4_Neural_Network.ipynb`: PyTorch-based AvalancheNet
-5. `5_Model_Stacking.ipynb`: Manual stacking with NN + RFs
-6. `6_TemporalSplit_Model_Stacking.ipynb`: Time-aware stacking to avoid data leakage
+2. `2_Exploratory_data_analaysis.ipynb`: Exploratory data analysis (EDA) and preprocessing
+3. `3_logistic_regression.ipynb`: Logistic regression with/without PCA
+4. `4_KNN.ipynb`: K nearest neighbors with PCA
+5. `5_RandomForests_DecisionTree.ipynb`: Decision trees, Random Forests (F1- and recall-optimized)
+6. `6_Neural_Network.ipynb`: PyTorch-based AvalancheNet
+7. `7_Model_Stacking.ipynb`: Manual stacking with NN + RFs
+8. `8_TemporalSplit_Model_Stacking.ipynb`: Time-aware stacking to avoid data leakage
 
 ## Data 
 - `dataset1.csv`, `dataset2.csv`, `dataset3_nowcast.csv`, `dataset3_forecast.csv`: Original datasets (https://www.envidat.ch/dataset/data_wet_aval_model)
@@ -23,6 +24,7 @@ This project uses meteorological and snowpack data to predict wet-snow avalanche
 - `full_dataset.csv`: Merged, cleaned dataset used for training and evaluation
 
 ## Models
+- KNN, Logistic regression with PCA/without
 - Decision Trees and Random Forests (optimized for F1 and recall)
 - PyTorch neural network (`AvalancheNet`)
 - Manual model stacking with Logistic Regression and Gradient Boosting as meta-learners
@@ -35,6 +37,8 @@ This project uses meteorological and snowpack data to predict wet-snow avalanche
 - Strong performance on avalanche detection despite class imbalance
 - Advanced error analysis using both SHAP and LIME
 - Careful splitting to avoid data leakage and overfitting
+- Careful about multicollinearity
+- Proposing approaches for Explainable AI and Active learning
 
 ## Known Limitations
 - Random splitting may allow indirect post-avalanche patterns to influence training
