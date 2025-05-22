@@ -7,7 +7,7 @@ Using Data provided by weather forecasting/nowcasting and SNOWPACK
 
 This project uses meteorological and snowpack data to predict wet-snow avalanche days in the Swiss Alps using multiple machine learning models and ensemble learning.
 
-Contents
+#Contents
 
 1_Plot_AvalangeOccurrence.ipynb: Visualize avalanche days per dataset and month
 2_Exploratory_data_analaysis.ipynb: Exploratory data analysis (EDA) and preprocessing
@@ -19,7 +19,8 @@ Contents
 8_TemporalSplit_Model_Stacking.ipynb: Time-aware stacking to avoid data leakage
 9_Prepare_sat_ds.ipynb: Getting data from all sources and processing into one dataset
 10_Predict_avalanche_sat.ipynb: Training RF and generating "Prediction Map" with it
-Data
+
+#Data
 
 dataset1.csv, dataset2.csv, dataset3_nowcast.csv, dataset3_forecast.csv: Original datasets (https://www.envidat.ch/dataset/data_wet_aval_model)
 
@@ -31,7 +32,7 @@ full_dataset.csv: Merged, cleaned dataset used for training and evaluation
 
 '/Data/Satelite-Data/dem.tif' : digital elevation map
 
-Models
+#Models
 
 KNN, Logistic regression with PCA/without
 Decision Trees and Random Forests (optimized for F1 and recall)
@@ -53,3 +54,7 @@ Known Limitations
 Random splitting may allow indirect post-avalanche patterns to influence training
 Future versions should explore seasonal or temporal splits like in 6_TemporalSplit_Model_Stacking.ipynb
 Using Data provided by satellites & weather stations
+
+Resulting Prediction Map from Satelite Data and RF : 
+<img width="586" alt="Screenshot 2025-05-22 at 17 26 43" src="https://github.com/user-attachments/assets/24fda703-2261-4c22-b1f1-f79bf19a202e" />
+
