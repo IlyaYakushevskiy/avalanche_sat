@@ -1,9 +1,9 @@
 # Avalanche Prediction Project
-Avalanche Prediction Project
+Resulting Prediction Map from Satelite Data and RF : 
+<img width="586" alt="Screenshot 2025-05-22 at 17 26 43" src="https://github.com/user-attachments/assets/24fda703-2261-4c22-b1f1-f79bf19a202e" />
 
-Using Data provided by weather forecasting/nowcasting and SNOWPACK
 
-#Nowcast inputs: AWS measurements #Forecast inputs: COSMO-OSHD, a numerical weather prediction (NWP) model
+
 
 This project uses meteorological and snowpack data to predict wet-snow avalanche days in the Swiss Alps using multiple machine learning models and ensemble learning.
 
@@ -55,6 +55,4 @@ Random splitting may allow indirect post-avalanche patterns to influence trainin
 Future versions should explore seasonal or temporal splits like in 6_TemporalSplit_Model_Stacking.ipynb
 Using Data provided by satellites & weather stations
 
-Resulting Prediction Map from Satelite Data and RF : 
-<img width="586" alt="Screenshot 2025-05-22 at 17 26 43" src="https://github.com/user-attachments/assets/24fda703-2261-4c22-b1f1-f79bf19a202e" />
 
