@@ -1,5 +1,5 @@
 # Avalanche Prediction Project
-__Avalanche Prediction Project
+Avalanche Prediction Project
 
 Using Data provided by weather forecasting/nowcasting and SNOWPACK
 
